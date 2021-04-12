@@ -1,0 +1,12 @@
+C:\Users\JWeiner\source\repos\Lab6_1\Lab6_1ClassLib\bin\Debug\net5.0-windows\Lab6_1ClassLib.deps.json
+C:\Users\JWeiner\source\repos\Lab6_1\Lab6_1ClassLib\bin\Debug\net5.0-windows\Lab6_1ClassLib.dll
+C:\Users\JWeiner\source\repos\Lab6_1\Lab6_1ClassLib\bin\Debug\net5.0-windows\ref\Lab6_1ClassLib.dll
+C:\Users\JWeiner\source\repos\Lab6_1\Lab6_1ClassLib\bin\Debug\net5.0-windows\Lab6_1ClassLib.pdb
+C:\Users\JWeiner\source\repos\Lab6_1\Lab6_1ClassLib\obj\Debug\net5.0-windows\Lab6_1ClassLib.csprojAssemblyReference.cache
+C:\Users\JWeiner\source\repos\Lab6_1\Lab6_1ClassLib\obj\Debug\net5.0-windows\Lab6_1ClassLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JWeiner\source\repos\Lab6_1\Lab6_1ClassLib\obj\Debug\net5.0-windows\Lab6_1ClassLib.AssemblyInfoInputs.cache
+C:\Users\JWeiner\source\repos\Lab6_1\Lab6_1ClassLib\obj\Debug\net5.0-windows\Lab6_1ClassLib.AssemblyInfo.cs
+C:\Users\JWeiner\source\repos\Lab6_1\Lab6_1ClassLib\obj\Debug\net5.0-windows\Lab6_1ClassLib.csproj.CoreCompileInputs.cache
+C:\Users\JWeiner\source\repos\Lab6_1\Lab6_1ClassLib\obj\Debug\net5.0-windows\Lab6_1ClassLib.dll
+C:\Users\JWeiner\source\repos\Lab6_1\Lab6_1ClassLib\obj\Debug\net5.0-windows\ref\Lab6_1ClassLib.dll
+C:\Users\JWeiner\source\repos\Lab6_1\Lab6_1ClassLib\obj\Debug\net5.0-windows\Lab6_1ClassLib.pdb

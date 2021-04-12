@@ -1,0 +1,106 @@
+﻿<Window x:Class="Lab6_1UI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lab6_1UI"
+        mc:Ignorable="d"
+        Title="Prime Numbers" Height="400" Width="400">
+    <Grid Background="#FF6B92FF">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="20"/>
+            <ColumnDefinition Width="120"/>
+            <ColumnDefinition Width="120"/>
+            <ColumnDefinition Width="120"/>
+            <ColumnDefinition Width="20"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="20"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Column="1"
+                   Grid.Row="1"
+                   Width="100"
+                   Height="50"
+                   FontSize="17"
+                   Text="Enter           a number"
+                   TextAlignment="Center"
+                   HorizontalAlignment="Center"
+                   VerticalAlignment="Bottom" FontWeight="Medium" TextWrapping="Wrap"/>
+
+        <TextBlock x:Name="nthPrime" Grid.Column="3"
+                   Grid.Row="1"
+                   Width="100"
+                   Height="50"
+                   FontSize="17"
+                   Text="Nth prime number"
+                   TextAlignment="Center"
+                   HorizontalAlignment="Center"
+                   VerticalAlignment="Bottom" TextWrapping="Wrap" FontWeight="Medium"/>
+
+        <TextBox x:Name="input"
+                 Margin="10,0,10,20"
+                 Grid.Column="1"
+                 Grid.Row="2"
+                 Width="100"
+                 Height="50"
+                 FontSize="25"
+                 VerticalContentAlignment="Center"
+                 Text="N" 
+                 FontWeight="Medium"
+                 TextAlignment="Center"
+                 HorizontalAlignment="Center" 
+                 VerticalAlignment="Bottom" 
+                 Background="#FF2DAFC8" 
+                 BorderBrush="Black" 
+                 GotMouseCapture="input_GotMouseCapture"/>
+
+        <TextBox x:Name="output"
+                   Margin="10,30,10,20"
+                   Grid.Column="3"
+                   Grid.Row="2"
+                   Width="100"
+                   Height="50"
+                   FontSize="25"
+                   FontWeight="Medium"
+                   Text=""
+                   TextAlignment="Center"
+                   HorizontalAlignment="Center"
+                   VerticalAlignment="Bottom"
+                   Background="#FF2DAFC8" 
+                   BorderBrush="Black" />
+
+
+        <Button x:Name="Calculate"
+                Grid.Column="1"
+                Grid.Row="3"
+                Margin="0,0,0,150"
+                Grid.ColumnSpan="3"
+                Grid.RowSpan="3"
+                Width="200"
+                Height="75"
+                FontSize="30"
+                Content="Ask the Gods"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center" Click="Calculate_Click" FontFamily="Ink Free" FontWeight="Bold"/>
+
+        <Button x:Name="Quit"
+                Grid.Column="1"
+                Grid.Row="4"
+                Margin="0,50,0,0"
+                Grid.ColumnSpan="3"
+                Grid.RowSpan="3"
+                Width="200"
+                Height="75"
+                FontSize="25"
+                Content="Reject the Gods"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center" FontFamily="Ink Free" FontWeight="Bold" Click="Quit_Click"/>
+    </Grid>
+</Window>
