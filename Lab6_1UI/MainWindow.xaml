@@ -69,6 +69,7 @@
                    Height="50"
                    FontSize="25"
                    FontWeight="Medium"
+                   IsReadOnly="True"
                    Text=""
                    TextAlignment="Center"
                    HorizontalAlignment="Center"
